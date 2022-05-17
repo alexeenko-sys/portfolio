@@ -1,9 +1,6 @@
 @media (max-width: 480px) {
   .intro__title {
-    width: auto;
-    font-size: 20px;
-    -webkit-animation: flashing-border .75s step-end infinite;
-            animation: flashing-border .75s step-end infinite;
+    font-size: 25px;
   }
   .about-box__descr {
     font-size: 20px;

@@ -3,4 +3,9 @@ const swiper = new Swiper('.swiper', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    breakpoints: {
+      520: {
+        hasNavigation: false
+      }
+    }
 });  

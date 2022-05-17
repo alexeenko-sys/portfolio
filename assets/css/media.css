@@ -1,0 +1,47 @@
+@media (max-width: 480px) {
+  .intro__title {
+    width: auto;
+    font-size: 20px;
+    -webkit-animation: flashing-border .75s step-end infinite;
+            animation: flashing-border .75s step-end infinite;
+  }
+  .about-box__descr {
+    font-size: 20px;
+  }
+  .about-box__title {
+    font-size: 25px;
+  }
+  .works__title {
+    text-align: center;
+  }
+  .swiper {
+    width: auto;
+  }
+  .swiper-slide__item-img {
+    width: 100%;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+  .swiper-slide__item {
+    margin: 0;
+  }
+  .works-info__title {
+    margin: 0;
+  }
+  .skills {
+    padding-bottom: 60px;
+  }
+  .skills__title {
+    text-align: center;
+  }
+  .skills__list-item {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .footer__button {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=media.css.map */

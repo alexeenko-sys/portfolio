@@ -4,8 +4,11 @@ const swiper = new Swiper('.swiper', {
       prevEl: '.swiper-button-prev',
     },
     breakpoints: {
+      320: {
+        slidesPerView: 1.3,
+      },
       520: {
-        hasNavigation: false
+        slidesPerView: 1,
       }
     }
 });  
